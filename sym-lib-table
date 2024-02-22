@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "tbc")(type "KiCad")(uri "${KIPRJMOD}/../tbc/tbc.kicad_sym")(options "")(descr ""))
+  (lib (name "tbc-ui")(type "KiCad")(uri "${KIPRJMOD}/tbc-ui.kicad_sym")(options "")(descr ""))
 )

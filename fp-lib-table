@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "tbc-ui")(type "KiCad")(uri "${KIPRJMOD}/tbc-ui.pretty")(options "")(descr ""))
+)
