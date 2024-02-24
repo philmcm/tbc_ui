@@ -1,15 +1,85 @@
-(footprint "MH_7.4MMCx3.2MMD_NON_COPPER_NPTH" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -5) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp a460f074-d822-4a92-ad69-91b0369432a8)
-  )
-  (fp_text value "MH_7.4MMCx3.2MMD_NON_COPPER_NPTH" (at 0 5.1) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 6589b2b9-5570-4906-b9d8-70e494e91cee)
-  )
-  (fp_circle (center 0 0) (end 3.7 -0.1)
-    (stroke (width 0.15) (type solid)) (fill none) (layer "F.SilkS") (tstamp 54b9c826-ef3f-46fa-9700-ff48fbc06739))
-  (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (tstamp 067c51c7-70a6-46a8-acd0-0763061a91f3))
+(footprint "MH_7.4MMCx3.2MMD_NON_COPPER_NPTH"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a460f074-d822-4a92-ad69-91b0369432a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MH_7.4MMCx3.2MMD_NON_COPPER_NPTH"
+		(at 0 5.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6589b2b9-5570-4906-b9d8-70e494e91cee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b1b287f-f010-4c10-9926-03516beeef3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de89c0ab-b1d7-4c0f-a516-5abca59a32a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b40e7fe-f75b-4622-a70f-b96faaef2b71")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 3.7 -0.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "54b9c826-ef3f-46fa-9700-ff48fbc06739")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "067c51c7-70a6-46a8-acd0-0763061a91f3")
+	)
 )
