@@ -84,10 +84,10 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -113,11 +113,12 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerbers/")
 		)
 	)
+	(property "VERSION" "1")
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "Net-(D1-K)")
@@ -1016,7 +1017,7 @@
 			)
 		)
 		(property "Value" "560"
-			(at 0 1.55 270)
+			(at 0 1.55 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "771ef55d-6de5-4b94-acf6-4a30a8913886")
@@ -1064,7 +1065,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0603FR-07560RL"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "afb6b116-bdc0-42f2-a6f7-80aba426fe97")
@@ -1171,7 +1172,7 @@
 			(uuid "54d42397-6a55-48ef-bbfe-0a8a914f2a8b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "c70a4a1d-a0bd-4bf9-bb1d-e0d51dbc27e9")
 			(effects
@@ -1436,7 +1437,7 @@
 			)
 		)
 		(property "Value" "0.01u"
-			(at 0 1.55 270)
+			(at 0 1.55 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e97458fc-4bcf-43c4-a79f-5bb3c9de6759")
@@ -1484,7 +1485,7 @@
 			)
 		)
 		(property "Mouser" " 81-GCM188R71H103KA7J"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "17571a9f-6292-4ef8-8872-bf6ede664af9")
@@ -1591,7 +1592,7 @@
 			(uuid "f58093bc-ff22-4c5e-9bdc-5f77d4f9973e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "7425d9b1-5bb9-4e87-8580-c34c11118b87")
 			(effects
@@ -2601,7 +2602,7 @@
 		(uuid "416e0256-9ca7-4ee6-9a65-1904d61e6489")
 		(at 171.85 75.65)
 		(property "Reference" "C6"
-			(at 0 -1.4 360)
+			(at 0 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "39c51fd4-4755-4d55-a2b2-c135896cdf82")
 			(effects
@@ -2613,7 +2614,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.55 360)
+			(at 0 1.55 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "05c3dcea-0e6c-4055-93d3-d4f6113fcea6")
@@ -2768,7 +2769,7 @@
 			(uuid "755c5064-931b-406f-97a9-625fa034064d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "9f108399-5d32-48f5-8242-5e14ae7f5108")
 			(effects
@@ -3454,7 +3455,7 @@
 		(uuid "59be4af7-03af-48cd-8813-f53a94cda801")
 		(at 200.75 82.8 90)
 		(property "Reference" "C4"
-			(at -0.15 -1.9 270)
+			(at -0.15 -1.9 -90)
 			(layer "F.SilkS")
 			(uuid "f001df7e-acd0-4c15-b4bd-33b63ceeed03")
 			(effects
@@ -3466,7 +3467,7 @@
 			)
 		)
 		(property "Value" "1u|25V"
-			(at 0 1.55 270)
+			(at 0 1.55 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f8dc466d-1d66-4ba5-81ac-06fdc5373665")
@@ -3514,7 +3515,7 @@
 			)
 		)
 		(property "Mouser" " 81-GCJ188R71E105KA1D"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a627bf73-116e-4294-b352-5178e19ee7dc")
@@ -3621,7 +3622,7 @@
 			(uuid "db312e86-7c92-468a-8da3-da44770e5ae5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "e8448d72-3808-494c-83dd-ffafd4d13744")
 			(effects
@@ -3676,7 +3677,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 1.55 270)
+			(at 0 1.55 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "741e366c-6827-4a1d-acaf-1a1ef20d1dbf")
@@ -3724,7 +3725,7 @@
 			)
 		)
 		(property "Mouser" " 603-RC0603FR-07100KL"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "68ec393e-3761-4497-bc59-639a85b9d6e3")
@@ -3831,7 +3832,7 @@
 			(uuid "779ef776-d084-4e67-87b4-08399856844a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "ba1328c7-1527-4ea6-a5f7-81a1949d6df0")
 			(effects
@@ -4110,7 +4111,7 @@
 			)
 		)
 		(property "Value" "0.01u"
-			(at 0 1.55 270)
+			(at 0 1.55 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5a05a094-ae2c-41d4-96f6-81bcdd3f18ee")
@@ -4158,7 +4159,7 @@
 			)
 		)
 		(property "Mouser" " 81-GCM188R71H103KA7J"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "00637a2c-b43c-41c1-85d2-099d182a961d")
@@ -4265,7 +4266,7 @@
 			(uuid "2b4deb36-e40d-4d0f-bd4a-d539deb8eaa8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "95a17e80-beb1-410a-8dd2-41db69c26171")
 			(effects
@@ -6384,7 +6385,7 @@
 			)
 		)
 		(property "Value" "0.01u"
-			(at 0 1.55 270)
+			(at 0 1.55 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "20d5b8af-c484-40e0-a3f0-5fb02e1baf13")
@@ -6432,7 +6433,7 @@
 			)
 		)
 		(property "Mouser" " 81-GCM188R71H103KA7J"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2f90496f-7fa5-4e86-973b-bb8e75c9ad1d")
@@ -6539,7 +6540,7 @@
 			(uuid "48e332d1-abba-4174-bab8-773a5a569d4a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "a63a95ac-69c6-427c-a02a-5d6c15aef2e8")
 			(effects
@@ -7222,7 +7223,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.55 270)
+			(at 0 1.55 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5070b33b-8d95-476a-826d-0baefb4abf12")
@@ -7270,7 +7271,7 @@
 			)
 		)
 		(property "Mouser" " 81-GCJ188R71H104KA2D"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d821e3e7-02fe-45e6-9392-9ad6e84ad663")
@@ -7377,7 +7378,7 @@
 			(uuid "ce965efc-d086-450c-855c-fc1a98a4cc49")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "6effb99b-0f3c-419d-a996-f1040ca17541")
 			(effects
@@ -7905,7 +7906,7 @@
 			)
 		)
 		(property "Mouser" " 595-CD74HC14M96 "
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c209102e-a70a-436e-982f-c55438492ba7")
@@ -8628,7 +8629,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.55 270)
+			(at 0 1.55 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7dc37c54-7800-4394-b42f-896104371445")
@@ -8676,7 +8677,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0603FR-0710KL"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa9b20e3-c4f1-4141-81e9-bcbdb56fe21d")
@@ -8783,7 +8784,7 @@
 			(uuid "4b7cfb6b-5957-4fa6-972a-19bf91854d20")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "160526e9-eef7-4854-a6dd-9e1a51ceeee3")
 			(effects
@@ -9846,6 +9847,18 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "b10c5def-b676-4820-a447-38d2a37324d1")
+	)
+	(gr_text "Time Base Corrector and Scaler - UI\nhttps://github.com/philmcm/tbc_ui\nVersion ${VERSION}"
+		(at 202.3 117 0)
+		(layer "Dwgs.User")
+		(uuid "b6e1caf5-88f2-4199-aeac-e317c507b753")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(dimension
 		(type aligned)
