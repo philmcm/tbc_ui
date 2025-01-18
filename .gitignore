@@ -4,3 +4,4 @@
 *.lck
 \#auto_saved_files\#
 fp-info-cache
+gerbers/*.zip
